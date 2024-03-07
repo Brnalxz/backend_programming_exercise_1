@@ -5,7 +5,7 @@ for(let x = 2; x <= 1000; x++)
 {
     let prima = true;
 
-    for(let z = 2; z * z <= 1000; z++)
+    for(let z = 2; z * z <= x; z++)
     {
         if(x % z === 0)
         {
